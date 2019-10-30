@@ -6,6 +6,7 @@
 /* stylelint-disable */
 html {
 	box-sizing: border-box;
+	font-size: 10px;
 }
 /* stylelint-enable */
 
@@ -23,6 +24,7 @@ html {
 /* stylelint-disable */
 body {
 	background: #fff;
+	font-size: 1.6rem;
 	/* Fallback for when there is no custom background color defined. */
 }
 /* stylelint-enable */
@@ -80,3 +82,4 @@ table {
 	margin: 0 0 1.5em;
 	width: 100%;
 }
+

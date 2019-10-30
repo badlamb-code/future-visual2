@@ -4,6 +4,11 @@
 # Typography
 --------------------------------------------------------------*/
 /* stylelint-disable */
+html,
+:root {
+	font-size: 10px;
+}
+
 body,
 button,
 input,
@@ -28,6 +33,66 @@ h6 {
 	clear: both;
 }
 
+/* stylelint-disable */
+/* custom */
+h1 {
+	font-size: 3.7rem;
+}
+
+h2 {
+	font-size: 3.1rem;
+	line-height: var(--line-height-small);
+}
+
+h3 {
+	font-size: 2.6rem;
+}
+
+h4 {
+	font-size: 2.2rem;
+}
+
+h5 {
+	font-size: 1.8rem;
+}
+
+h1,
+h3,
+h4,
+h5 {
+	line-height: var(--line-height-medium);
+}
+
+@media (--content-query) {
+	h1 {
+		font-size: 5.9rem;
+	}
+
+	h2 {
+		font-size: 3.7rem;
+	}
+
+	h3 {
+		font-size: 3.1rem;
+	}
+
+	h4 {
+		font-size: 2.6rem;
+	}
+
+	h5 {
+		font-size: 2.2rem;
+	}
+}
+
+@media (--sidebar-query) {
+	h1 {
+		font-size: 7.2rem;
+	}
+}
+
+/* stylelint-enable */
+
 .entry-header h1.entry-title,
 .page-header .page-title {
 	font-size: 2.5rem;
@@ -37,7 +102,6 @@ h6 {
 }
 
 dfn,
-cite,
 em,
 i {
 	font-style: italic;
@@ -49,8 +113,10 @@ q {
 }
 
 blockquote {
-	border-left: 4px solid var(--color-quote-border);
+	background-color: #fff;
 	margin: 0;
+	font-style: italic;
+	font-size: 1.8rem;
 }
 
 .entry-content > blockquote {
@@ -62,13 +128,13 @@ blockquote {
 
 	.entry-content > blockquote {
 		margin-left: auto;
+		font-size: 2.2rem;
 	}
 }
 
 blockquote cite {
-	color: var(--color-quote-citation);
-	font-size: 13px;
-	margin-top: 1em;
+	font-size: 1.4rem;
+	margin-top: 0.5rem;
 	position: relative;
 	font-style: normal;
 }

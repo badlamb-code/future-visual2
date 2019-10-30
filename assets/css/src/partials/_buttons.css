@@ -1,0 +1,12 @@
+.btn {
+	font-size: 1.6rem;
+	background-color: var(--color-red);
+	line-height: var(--line-height-small);
+	color: #fff;
+	padding: 1.5rem 3rem;
+	font-weight: 700;
+}
+
+.btn:active {
+	background-color: var(--color-dark-red);
+}
