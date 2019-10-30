@@ -2,11 +2,17 @@
 	font-size: 1.6rem;
 	background-color: var(--color-red);
 	line-height: var(--line-height-small);
-	color: #fff;
+	color: var(--color-white);
 	padding: 1.5rem 3rem;
 	font-weight: 700;
+	text-decoration: none;
+	border-radius: 23px;
 }
 
 .btn:active {
 	background-color: var(--color-dark-red);
+}
+
+.btn:visited {
+	color: var(--color-white);
 }

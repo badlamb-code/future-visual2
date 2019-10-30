@@ -10,13 +10,13 @@ a {
 /* stylelint-enable */
 
 a:visited {
-	color: var(--color-link-visited);
+	color: var(--color-light-blue);
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: var(--color-link-active);
+	color: var(--color-blue);
 }
 
 a:focus {
