@@ -37,11 +37,14 @@ h6 {
 /* custom */
 h1 {
 	font-size: 3.7rem;
+	line-height: var(--line-height-medium);
+	color: var(--color-indigo);
 }
 
 h2 {
 	font-size: 3.1rem;
 	line-height: var(--line-height-small);
+	color: var(--color-blue);
 }
 
 h3 {
@@ -56,10 +59,10 @@ h5 {
 	font-size: 1.8rem;
 }
 
-h1,
 h3,
 h4,
 h5 {
+	color: var(--color-blue);
 	line-height: var(--line-height-medium);
 }
 
@@ -117,6 +120,7 @@ blockquote {
 	margin: 0;
 	font-style: italic;
 	font-size: 1.8rem;
+	color: var(--color-indigo);
 }
 
 .entry-content > blockquote {

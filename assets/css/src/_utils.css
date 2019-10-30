@@ -7,3 +7,11 @@
 	font-size: 2.8rem;
 }
 
+/* colors */
+.color-indigo {
+	color: var(--color-indigo);
+}
+
+.color-blue {
+	color: var(--color-blue);
+}
