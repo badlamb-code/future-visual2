@@ -33,9 +33,4 @@ namespace WP_Rig\WP_Rig;
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<header class="header">
-		<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'wp-rig' ); ?></a>
-		<?php get_template_part( 'template-parts/header/navigation' ); ?>
-		<a href="#" class="btn">Make an enquiry</a>
-	</header>
-	
+	<?php get_template_part( 'template-parts/blocks/header' ); ?>

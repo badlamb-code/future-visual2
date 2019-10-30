@@ -32,10 +32,6 @@ msgstr[1] ""
 msgid "Comments are closed."
 msgstr ""
 
-#: header.php:36
-msgid "Skip to content"
-msgstr ""
-
 #: inc/Accessibility/Component.php:69
 msgid "Expand child menu"
 msgstr ""

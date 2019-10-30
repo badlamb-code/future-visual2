@@ -1,12 +1,30 @@
 .btn {
-	font-size: 1.6rem;
+	display: inline-block;
+	font-size: 1.4rem;
 	background-color: var(--color-red);
 	line-height: var(--line-height-small);
 	color: var(--color-white);
-	padding: 1.5rem 3rem;
 	font-weight: 700;
 	text-decoration: none;
 	border-radius: 23px;
+	padding: 1rem 2rem;
+}
+
+.btn--small {
+	padding: 1rem 2rem;
+}
+
+@media (--content-query) {
+
+	.btn {
+		font-size: 1.6rem;
+		padding: 1.5rem 4rem;
+	}
+
+}
+
+.btn:hover {
+	color: var(--color-white);
 }
 
 .btn:active {

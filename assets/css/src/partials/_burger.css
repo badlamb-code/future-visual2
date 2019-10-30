@@ -1,0 +1,45 @@
+.burger {
+	z-index: 9999;
+	cursor: pointer;
+	margin-left: 21px;
+}
+
+@media (min-width: 96em) {
+
+	.burger {
+		display: none;
+	}
+
+}
+
+.burger__line {
+	position: relative;
+	background-color: #fff;
+	width: 27px;
+	height: 4px;
+	border-radius: 0;
+	transition: 240ms;
+}
+
+.burger__line:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.burger__line:nth-child(2) {
+	transition: all 0.2s ease;
+}
+
+.burger.active .burger__line:nth-child(1) {
+	transform: translateY(9px) rotate(45deg);
+	background-color: var(--color-red);
+}
+
+.burger.active .burger__line:nth-child(2) {
+	transform: translateY(9px) rotate(45deg);
+	opacity: 0;
+}
+
+.burger.active .burger__line:nth-child(3) {
+	transform: translateY(-9px) rotate(-45deg);
+	background-color: var(--color-red);
+}

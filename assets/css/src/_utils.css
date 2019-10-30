@@ -1,3 +1,5 @@
+/* custom */
+
 /* fonts */
 .font-size-100 {
 	font-size: 10rem;
@@ -14,4 +16,13 @@
 
 .color-blue {
 	color: var(--color-blue);
+}
+
+/* flex */
+.justify-between {
+	justify-content: space-between;
+}
+
+.align-center {
+	align-items: center;
 }

@@ -1,3 +1,23 @@
+/* custom */
+
+document.addEventListener( 'DOMContentLoaded', function() {
+	// globals
+	const burger = document.querySelector( '.burger' ),
+		nav = document.querySelector( '.header__nav' ),
+		body = document.querySelector( 'body' ),
+		burgerLine = document.querySelectorAll( '.burger__line' );
+
+	// hamburger
+	burger.addEventListener( 'click', function() {
+		this.classList.toggle( 'active' );
+		nav.classList.toggle( 'open' );
+		body.classList.toggle( 'overflow-mobile-hidden' );
+		for ( let i = 0; i < burgerLine.length; i++ ) {
+			burgerLine[ i ].classList.toggle( 'bg-secondary-important' );
+		}
+	} );
+} );
+
 /* global wpRigScreenReaderText */
 /**
  * File navigation.js.
