@@ -4,14 +4,6 @@
 	margin-left: 21px;
 }
 
-@media (min-width: 96em) {
-
-	.burger {
-		display: none;
-	}
-
-}
-
 .burger__line {
 	position: relative;
 	background-color: #fff;
@@ -42,4 +34,12 @@
 .burger.active .burger__line:nth-child(3) {
 	transform: translateY(-9px) rotate(-45deg);
 	background-color: var(--color-red);
+}
+
+@media (--sidebar-query) {
+
+	.burger {
+		display: none;
+	}
+
 }

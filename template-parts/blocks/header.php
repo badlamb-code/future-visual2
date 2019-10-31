@@ -42,11 +42,11 @@ namespace WP_Rig\WP_Rig;
 				</svg>
 				<!-- xr logo goes here -->
 			</a>
-			<nav class="header__nav">
-				<?php wp_rig()->display_primary_nav_menu( [ 'menu_id' => 'primary-menu' ] ); ?>
-			</nav>
 			<div class="header__box justify-between align-center">
-				<a href="#" class="btn header__btn">Make an enquiry</a>
+				<nav class="header__nav">
+					<?php wp_rig()->display_primary_nav_menu( [ 'menu_id' => 'primary-menu' ] ); ?>
+				</nav>
+				<a href="#" class="btn btn--small header__btn">Make an enquiry</a>
 				<div class="burger">
 					<div class="burger__line"></div>
 					<div class="burger__line"></div>
