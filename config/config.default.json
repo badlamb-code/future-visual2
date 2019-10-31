@@ -1,0 +1,38 @@
+{
+  "theme": {
+    "slug": "wprig-future-visual",
+    "name": "WP Rig Future Visual",
+    "author": "The WP Rig Contributors",
+    "PHPNamespace": "WP_Rig\\WP_Rig"
+  },
+  "dev": {
+    "browserSync": {
+      "live": true,
+      "proxyURL": "localhost:8000",
+      "bypassPort": "8181",
+      "https": false
+    },
+    "styles": {
+      "stage": 3,
+      "autoprefixer": {
+        "grid": false
+      },
+      "importFrom": ["_custom-media.css"],
+      "features": {
+        "custom-media-queries": true,
+        "custom-properties": true,
+        "nesting-rules": true
+      }
+    },
+    "debug": {
+      "styles": false,
+      "scripts": false,
+      "phpcs": true
+    }
+  },
+  "export": {
+    "compress": true,
+    "generatePotFile": true,
+    "filesToCopy": ["LICENSE", "readme.txt", "screenshot.png"]
+  }
+}

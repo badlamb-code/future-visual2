@@ -1,0 +1,28 @@
+/* custom */
+
+/* fonts */
+.font-size-100 {
+	font-size: 10rem;
+}
+
+.font-size-28 {
+	font-size: 2.8rem;
+}
+
+/* colors */
+.color-indigo {
+	color: var(--color-indigo);
+}
+
+.color-blue {
+	color: var(--color-blue);
+}
+
+/* flex */
+.justify-between {
+	justify-content: space-between;
+}
+
+.align-center {
+	align-items: center;
+}

@@ -1,0 +1,36 @@
+.btn {
+	display: inline-block;
+	font-size: 1.6rem;
+	background-color: var(--color-red);
+	line-height: var(--line-height-small);
+	color: var(--color-white);
+	font-weight: 700;
+	text-decoration: none;
+	border-radius: 23px;
+	padding: 1.3rem 4rem;
+}
+
+.btn--small {
+	padding: 1.1rem 2rem;
+	font-size: 1.4rem;
+}
+
+.btn:hover {
+	color: var(--color-white);
+}
+
+.btn:active {
+	background-color: var(--color-dark-red);
+}
+
+.btn:visited {
+	color: var(--color-white);
+}
+
+@media (--sidebar-query) {
+
+	.btn--small {
+		font-size: 1.6rem;
+	}
+
+}
