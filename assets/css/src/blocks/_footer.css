@@ -1,0 +1,147 @@
+.footer {
+	padding: 3rem 0 3rem 0;
+	background-color: var(--color-blue);
+}
+
+.footer__logo {
+	display: inline-block;
+	width: 178px;
+	margin-bottom: 40px;
+}
+
+.footer__inner > div {
+	width: 100%;
+	margin-bottom: 6rem;
+}
+
+.footer__nav {
+	list-style: none;
+	color: #a19cb1;
+	margin-top: 8.7rem;
+	font-size: 1.3rem;
+}
+
+.footer__nav li {
+	display: block;
+	margin-bottom: 2.5rem;
+}
+
+.footer__nav li:last-child {
+	margin-bottom: 0;
+}
+
+
+.footer__nav a {
+	color: #a19cb1;
+}
+
+.footer__form {
+	width: 100%;
+	margin-top: 3.2rem;
+}
+
+.footer__form div {
+	position: relative;
+	margin-top: 0.6rem;
+	max-width: 100%;
+	width: 100%;
+}
+
+.footer__form input[type="email"] {
+	background-color: var(--color-light-blue);
+	border: none;
+	height: 44px;
+	padding: 0 2.2rem;
+	border-radius: 2.3rem;
+	width: 100%;
+	font-size: 1.4rem;
+	line-height: 2;
+}
+
+.footer__form input[type="email"]::placeholder {
+	color: #fff;
+}
+
+.footer__form input[type="submit"] {
+	position: static;
+	right: 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-top: 11px;
+}
+
+.footer__social {
+	margin-top: 4px;
+}
+
+.footer__social li {
+	display: inline-block;
+}
+
+.footer__social li:not(:last-child) {
+	margin-right: 10px;
+}
+
+.footer__social p {
+	margin: 0;
+	margin-bottom: 9px;
+}
+
+.footer__social img {
+	height: 44px;
+	width: 44px;
+}
+
+
+@media (--content-query) {
+	.footer {
+		padding: 3rem 0 3rem 0;
+	}
+
+	.footer__form input[type="submit"] {
+		width: auto;
+		position: absolute;
+		margin-top: 0;
+	}
+
+	.footer__nav li {
+		padding: 0 2rem;
+		display: inline-block;
+		margin-bottom: 0;
+	}
+
+	.footer__nav li:first-child {
+		padding: 0;
+		padding-right: 2rem;
+	}
+
+	.footer__nav li:not(:last-child) {
+		border-right: 1px solid #9791a8;
+	}
+
+	.footer__logo {
+		display: inline-block;
+		width: 210px;
+		margin-bottom: 0;
+	}
+	
+}
+
+@media (--sidebar-query) {
+
+	.footer {
+		padding: 4rem 0 5rem 0;
+	}
+
+	.footer__form {
+		width: 559px;
+		margin-top: 0;
+	}
+
+	.footer__social {
+		margin-top: 4px;
+		margin-right: 38px;
+	}
+
+}
