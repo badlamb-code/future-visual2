@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1921px" height="1113px" viewBox="0 0 1921 1113" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.1 (81669) - https://sketch.com -->
+    <title>triangle_purple </title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="38.811761%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#190846" offset="0%"></stop>
+            <stop stop-color="#110531" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="triangle_purple-">
+            <g>
+                <rect id="Rectangle" fill="#110531" x="0" y="0" width="1921" height="1112.48"></rect>
+                <polygon id="triangle_purple" fill="url(#linearGradient-1)" points="1920 1112.4677 0 1112.47649 1920 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
