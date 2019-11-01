@@ -10,7 +10,7 @@
 	display: flex;
 }
 
-.header__logo svg:first-of-type {
+.header__logo img:first-of-type {
 	width: 114px;
 	height: 45px;
 }
@@ -114,7 +114,7 @@
 		border-bottom: 3px solid var(--color-red);
 	}
 
-	.header__logo svg:first-of-type {
+	.header__logo img:first-of-type {
 		width: 178px;
 		height: auto;
 	}
