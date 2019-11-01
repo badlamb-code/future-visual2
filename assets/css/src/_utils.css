@@ -43,9 +43,28 @@
 	align-items: center;
 }
 
+.display-flex {
+	display: flex;
+}
+
 /* global */
 .reset-list {
 	list-style: none;
 	padding: 0;
+	margin: 0;
+}
+
+.bg-cover {
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.realtive {
+	position: relative;
+}
+
+/* margins */
+.ma0 {
 	margin: 0;
 }

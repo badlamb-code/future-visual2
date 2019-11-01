@@ -20,8 +20,19 @@ textarea {
 	font-size: var(--font-size-regular);
 	line-height: var(--global-font-line-height);
 }
-/* stylelint-enable */
 
+body {
+	font-size: 1.6rem;
+}
+
+@media (--sidebar-query) {
+
+	body {
+		font-size: 2rem;
+	}
+
+}
+/* stylelint-enable */
 h1,
 h2,
 h3,

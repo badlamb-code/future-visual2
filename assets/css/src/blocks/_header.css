@@ -59,13 +59,17 @@
 }
 
 .header__btn {
-	margin-left: 40px;
+	margin-left: 20px;
 }
 
 @media (--content-query) {
 
 	.header__nav > ul {
 		padding: 0 60px;
+	}
+
+	.header__btn {
+		margin-left: 40px;
 	}
 
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="stat_number" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 208 207" style="enable-background:new 0 0 208 207;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#Polygon_1_);}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Roboto-Bold';}
+	.st3{font-size:70px;}
+</style>
+<linearGradient id="Polygon_1_" gradientUnits="userSpaceOnUse" x1="-1386.7557" y1="1596.256" x2="-1386.7557" y2="1597.256" gradientTransform="matrix(180.1333 0 0 -207 249904.8438 330632)">
+	<stop  offset="0" style="stop-color:#B946F9"/>
+	<stop  offset="1" style="stop-color:#7737FF"/>
+</linearGradient>
+<polygon id="Polygon" class="st0" points="104,0 194.1,51.8 194.1,155.2 104,207 13.9,155.2 13.9,51.8 "/>
+</svg>
