@@ -15,6 +15,12 @@
 	height: 45px;
 }
 
+.header__logo img:last-of-type {
+	width: 70px;
+	height: 70px;
+	margin-left: 27px;
+}
+
 .header__nav {
 	position: absolute;
 	top: 0;

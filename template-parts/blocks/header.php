@@ -18,7 +18,7 @@ namespace WP_Rig\WP_Rig;
 		<div class="row justify-between align-center header__inner">
 			<a href="#" class="header__logo align-center">
 				<?php get_template_part( 'template-parts/partials/logo' ); ?>
-				<!-- xr logo goes here -->
+				<img src="<?php echo get_template_directory_uri() . '/assets/images/logo_alt.svg' ?>" alt="VISIONxR">
 			</a>
 			<div class="header__box justify-between align-center">
 				<nav class="header__nav">
