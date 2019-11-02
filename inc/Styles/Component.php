@@ -292,18 +292,15 @@ class Component implements Component_Interface, Templating_Component_Interface {
 				'preload_callback' => '__return_true',
 			],
 			'wp-rig-front-page' => [
-				'file' => 'front-page.min.css',
+				'file' => 'templates/front-page.min.css',
 				'preload_callback' => function() {
 					global $template;
 					return 'front-page.php' === basename( $template );
 				},
 			],
-			'wp-rig-page-visionxr' => [
-				'file' => 'pages/visionxr.min.css',
-				'preload_callback' => function() {
-					global $template;
-					return 'page-visionxr.php' === basename( $template );
-				},
+			'wp-rig-template-visionxr' => [
+				'file' => 'templates/visionxr.min.css',
+				'global' => true,
 			],
 		];
 

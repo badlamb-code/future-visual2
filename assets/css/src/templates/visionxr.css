@@ -6,16 +6,25 @@
 	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
+	/* background: linear-gradient(180deg, #190846 0%, #110531 100%); */
+	background-color: var(--color-blue);
+	background-position: 10%;
+	overflow: hidden;
 }
 
 .visionxr-hero::before {
 	content: " ";
 	position: absolute;
 	top: 0;
+	right: 0;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(180deg, #190846 0%, var(--color-blue) 100%);
-	z-index: -2;
+	transform: translateY(-52%);
+	background-image: url('../../images/triangle_purple.svg');
+	z-index: 2;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 
 .visionxr-hero h1 {
@@ -25,6 +34,7 @@
 }
 
 .visionxr-hero__container {
+	position: relative;
 	max-width: 1160px;
 	margin: 0 auto;
 	height: 100%;
@@ -33,6 +43,7 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 2rem;
+	z-index: 5;
 }
 
 .visionxr-hero__container h1 {
@@ -49,8 +60,8 @@
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	z-index: -1;
-	transform: translateX(-50%);
+	z-index: 4;
+	transform: translateX(-60%);
     bottom: 15px;
     height: 55%;
 }
@@ -308,6 +319,10 @@
 	.visionxr-two-column__box {
 		margin-bottom: 6rem;
 	}
+	
+	.visionxr-two-column__logo {
+		display: none;
+	}
 
 }
 
@@ -324,10 +339,6 @@
 	.visionxr-two-column__info {
 		max-width: 579px;
 		margin: 0 auto;
-	}
-
-	.visionxr-two-column__logo {
-		display: none;
 	}
 
 }
@@ -498,7 +509,6 @@
 }
 
 .visionxr-how__inner-alt {
-	max-width: 945px;
 	margin: 0 auto;
 	margin-top: 4.7rem;
 }
@@ -549,30 +559,8 @@
 	width: 25px;
 }
 
-.visionxr-how__icons {
-	margin-top: 5rem;
-	max-width: 915px;
-}
-
-.visionxr-how__icon {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	display: inline-block;
-	width: 86px;
-	margin: 0 2rem;
-}
-
-.visionxr-how__icon img {
-	display: inline-block;
+.visionxr-how__icons img {
 	width: 100%;
-	height: 100px;
-}
-
-.visionxr-how__icon p {
-	margin: 0;
-	margin-top: 4px;
-	font-size: 1.8rem;
 }
 
 @media (max-width: 767px) {
@@ -605,38 +593,21 @@
 	.visionxr-how__inner-alt {
 		padding: 0 20px;
 	}
-	
+
 	.visionxr-how__icons {
 		display: flex;
-		justify-content: space-around;
 		flex-wrap: wrap;
-		max-width: 220px;
+		justify-content: space-around;
+		max-width: 234px;
 		margin: 0 auto;
 		margin-top: 3.8rem;
 	}
 
-	
-	.visionxr-how__icon {
-		width: 58px;
-		margin: 0;
-		margin-bottom: 16px;
-	}
-
-	.visionxr-how__icon img {
-		width: 100%;
-		height: 59px;
-	}
-
-	.visionxr-how__icon:last-child {
-		width: 90px;
-	}
-
-	.visionxr-how__icon:last-child img {
-		width: 58px;
-	}
-
-	.visionxr-how__icon p {
-		font-size: 1.4rem;
+	.visionxr-how__icons > div {
+		max-width: 60px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 }
@@ -698,30 +669,22 @@
 	.visionxr-how__icons {
 		display: flex;
 		justify-content: space-between;
+		margin-top: 50px;
+		padding: 0;
+		max-width: 615px;
 	}
 
-	.visionxr-how__icon {
-		margin: 0;
-	}
-
-	.visionxr-how__icon:not(:last-child) {
+	.visionxr-how__icons > div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		width: 60px;
 	}
 
-	.visionxr-how__icon:last-child {
-		width: 90px;
-	}
-
-	.visionxr-how__icon img {
-		width: 100%;
-	}
-
-	.visionxr-how__icon:last-child img {
-		width: 60px;
-	}
-
-	.visionxr-how__icon p {
+	.visionxr-how__icons > div p {
 		font-size: 1.4rem;
+		margin: 0;
+		margin-top: 5px;
 	}
 
 }
@@ -741,6 +704,10 @@
 	.visionxr-how__inner {
 		margin: 12.1rem auto 0 auto;
 		max-width: 1041px;
+	}
+
+	.visionxr-how__inner-alt {
+		max-width: 945px;
 	}
 
 	.visionxr-how__inner::before {
@@ -767,14 +734,28 @@
 		width: 107px;
 		margin-bottom: 15px;
 	}
-	
+
+		
+	.visionxr-how__icons {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+		padding: 0 2.2rem;
+	}
+
+	.visionxr-how__icons > div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 87px;
+	}
 
 }
 
 /* why */
 .visionxr-why {
 	position: relative;
-	padding-top: 13rem;
+	padding-top: 11rem;
 	padding-bottom: 27.4rem;
 	padding-bottom: 9rem;
 }
@@ -885,8 +866,9 @@
 }
 
 @media (--sidebar-query) { 
+
 	.visionxr-why {
-		padding-bottom: 27.4rem;
+		padding-top: 13rem;
 	}
 
 	.visionxr-why__box > div {
