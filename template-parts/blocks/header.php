@@ -24,7 +24,7 @@ namespace WP_Rig\WP_Rig;
 				<nav class="header__nav">
 					<?php wp_rig()->display_primary_nav_menu( [ 'menu_id' => 'primary-menu' ] ); ?>
 				</nav>
-				<a href="#" class="btn btn--small header__btn">Make an enquiry</a>
+				<a href="#" class="header__btn btn btn--small">Make an enquiry</a>
 				<div class="burger">
 					<div class="burger__line"></div>
 					<div class="burger__line"></div>

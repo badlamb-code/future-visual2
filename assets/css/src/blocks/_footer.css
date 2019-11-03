@@ -17,7 +17,7 @@
 .footer__nav {
 	list-style: none;
 	color: #a19cb1;
-	margin-top: 8.7rem;
+	margin-top: 3.1rem;
 	font-size: 1.3rem;
 }
 
@@ -124,6 +124,10 @@
 		display: inline-block;
 		width: 210px;
 		margin-bottom: 0;
+	}
+
+	.footer__nav {
+		margin-top: 8.7rem;
 	}
 	
 }
