@@ -1,3 +1,8 @@
+/* wrapper */
+.visionxr-wrapper {
+	background-color: var(--color-blue);
+}
+
 /* visionxr-hero */
 .visionxr-hero {
 	padding: 4rem 0;
@@ -18,12 +23,18 @@
 	right: 0;
 	width: 100%;
 	height: 100%;
-	transform: translateY(-52%);
+	transform: translateY(-51%);
 	background-image: url('../../images/triangle_purple.svg');
 	z-index: 2;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
+}
+
+@media (min-width: 1920px) {
+	.visionxr-hero::before {
+		transform: translateY(-60%);
+	}
 }
 
 .visionxr-hero h1 {
@@ -60,7 +71,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: 4;
-	transform: translateX(-60%);
+	transform: translateX(-50%);
     bottom: 15px;
     height: 55%;
 }
@@ -347,21 +358,29 @@
 .visionxr-about {
 	position: relative;
 	padding: 7.5rem 0 0 0;
+	background-color: var(--color-blue);
 }
 
 .visionxr-about__bg {
+	position: relative;
+}
+
+.visionxr-about__bg .container {
+	position: relative;
+	z-index: 3;
+}
+
+.visionxr-about__bg::before {
 	position: absolute;
-	z-index: -1;
-	content: "";
 	width: 100%;
-	height: 100.5%;
+	height: 100%;
+	content: " ";
 	background-image: url("../../images/src/triangle_purple.svg");
+	background-size: cover;
 	transform: scaleX(-1);
 	filter: FlipH;
 	-ms-filter: "FlipH";
-	top: 0;
-	left: 0;
-	background-position: 10%;
+	z-index: 1;
 }
 
 .visionxr-about__box {
@@ -442,7 +461,11 @@
 @media (--sidebar-query) {
 
 	.visionxr-about {
-		padding: 13.9rem 0 12.8rem 0;
+		padding: 13.9rem 0 0 0;
+	}
+
+	.visionxr-about__bg {
+		padding-bottom: 12.8rem;
 	}
 
 	.visionxr-about__container {
@@ -473,9 +496,25 @@
 }
 
 /* how */
-.visionxr-how {
+.visionxr-how__bg {
 	padding-top: 7.5rem;
+	position: relative;
+}
+
+.visionxr-how__bg .container {
+	position: relative;
+	z-index: 3;
+}
+
+.visionxr-how__bg::before {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	content: " ";
 	background-image: url("../../images/src/triangle_purple.svg");
+	background-size: cover;
+	z-index: 1;
+	top: 0;
 }
 
 .visionxr-how__container {
@@ -612,8 +651,8 @@
 }
 
 @media (--content-query) {
-
-	.visionxr-how {
+	
+	.visionxr-how__bg {
 		padding-top: 9.4rem;
 		padding-bottom: 0;
 	}
@@ -670,7 +709,6 @@
 		justify-content: space-between;
 		margin-top: 50px;
 		padding: 0;
-		max-width: 615px;
 	}
 
 	.visionxr-how__icons > div {
@@ -692,16 +730,20 @@
 
 	.visionxr-how {
 		padding-top: 13rem;
-		padding-bottom: 8rem;
 	}
 
 	.visionxr-how__logo {
-		width: 170px;
-		height: 170px;
+		width: 150px;
+		height: 150px;
+	}
+
+	.visionxr-how__bg {
+		padding-top: 12.1rem;
+		padding-bottom: 8rem;
 	}
 
 	.visionxr-how__inner {
-		margin: 12.1rem auto 0 auto;
+		margin: 0 auto;
 		max-width: 1041px;
 	}
 
@@ -755,22 +797,31 @@
 .visionxr-why {
 	position: relative;
 	padding-top: 11rem;
-	padding-bottom: 27.4rem;
-	padding-bottom: 9rem;
 }
 
+
 .visionxr-why__bg {
+	position: relative;
+	padding-bottom: 27.4rem;
+	padding-top: 4.9rem;
+}
+
+.visionxr-why__bg .container {
+	position: relative;
+	z-index: 3;
+}
+
+.visionxr-why__bg::before {
 	position: absolute;
-	top: -1px;
-	z-index: -1;
-	content: "";
 	width: 100%;
-	height: 160%;
+	height: 100%;
+	content: " ";
 	background-image: url("../../images/src/triangle_purple.svg");
+	background-size: cover;
 	transform: scaleX(-1);
 	filter: FlipH;
 	-ms-filter: "FlipH";
-	left: 0;
+	z-index: 1;
 }
 
 .visionxr-why__inner {
@@ -780,10 +831,6 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-}
-
-.visionxr-why h2 {
-	margin-bottom: 4.9rem;
 }
 
 .visionxr-why__box div:first-of-type {
@@ -835,11 +882,9 @@
 }
 
 @media (--content-query) {
-	.visionxr-why {
-		padding-bottom: 7.3rem;
-	}
 
 	.visionxr-why__bg {
+		padding-bottom: 7.3rem;
 		height: 100%;
 	}
 
@@ -867,7 +912,7 @@
 @media (--sidebar-query) { 
 
 	.visionxr-why {
-		padding-top: 13rem;
+		padding-top: 13.8rem;
 	}
 
 	.visionxr-why__box > div {
