@@ -11,7 +11,7 @@
                             <h1 class="ma0">Lucy reports from AR & VR World Summit.</h1>
                             <p class="ma0">AR & VR World Summit</p>
                         </div>
-                        <a href="#">Read more</a>
+                        <a href="#">Read more <img src="<?php echo get_template_directory_uri() . '/assets/images/arrow_red.svg' ?>" alt="red arrow"></a>
                     </header>
                 </article>
             </div>
@@ -24,7 +24,7 @@
                             <h1 class="ma0">Lucy reports from AR & VR World Summit.</h1>
                             <p class="ma0">AR & VR World Summit</p>
                         </div>
-                        <a href="#">Read more</a>
+                        <a href="#">Read more <img src="<?php echo get_template_directory_uri() . '/assets/images/arrow_red.svg' ?>" alt="red arrow"></a>
                     </header>
                 </article>
             </div>
@@ -37,7 +37,7 @@
                             <h1 class="ma0">Lucy reports from AR & VR World Summit.</h1>
                             <p class="ma0">AR & VR World Summit</p>
                         </div>
-                        <a href="#">Read more</a>
+                        <a href="#">Read more <img src="<?php echo get_template_directory_uri() . '/assets/images/arrow_red.svg' ?>" alt="red arrow"></a>
                     </header>
                 </article>
             </div>
