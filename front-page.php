@@ -15,7 +15,11 @@ wp_rig()->print_styles( 'wp-rig-content', 'wp-rig-front-page' );
 
 ?>
 	<main id="primary" class="site-main">
-		<?php get_template_part('template-parts/templates/front-page'); ?>
-	</main><!-- #primary -->
+		<?php get_template_part('template-parts/front-page/hero'); ?>
+		<?php get_template_part('template-parts/front-page/banner'); ?>
+		<?php get_template_part('template-parts/front-page/banner-alt'); ?>
+		<?php get_template_part('template-parts/front-page/slider'); ?>
+		<?php get_template_part('template-parts/front-page/posts'); ?>
+	</main>
 <?php
 get_footer();

@@ -292,7 +292,7 @@ class Component implements Component_Interface, Templating_Component_Interface {
 				'preload_callback' => '__return_true',
 			],
 			'wp-rig-front-page' => [
-				'file' => 'templates/front-page.min.css',
+				'file' => 'front-page.min.css',
 				'preload_callback' => function() {
 					global $template;
 					return 'front-page.php' === basename( $template );
