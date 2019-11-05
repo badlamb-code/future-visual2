@@ -1,16 +1,16 @@
 <section class="contact-form bg-cover">
     <div class="container">
         <div class="row row--alt justify-between">
-            <div class="col col-66">
+            <div class="col col-8">
                 <p class="ma0 bold">Contact</p>
                 <h1 class="ma0">Get in touch to discuss your next VR project.</h1>
             </div>
-            <div class="col col-33">
+            <div class="col col-4">
                 <img class="contact-form__image" src="<?php echo get_template_directory_uri() . '/assets/images/contact.svg'; ?>" alt="Icons">
             </div>
         </div>
         <div class="row row--alt justify-between">
-            <div class="col col-25">
+            <div class="col col-4">
                 <p class="bold">Visit:</p>
                 <address>
                     <p class="ma0">29-30 Castle Street,</p>
@@ -32,7 +32,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col col-75">
+            <div class="col col-9">
                 <p class="bold">Leave a message</p>
                 <div class="form--alt">
                     <?php get_template_part('template-parts/blocks/form'); ?>

@@ -18,6 +18,7 @@ main {
 .row {
 	display: flex;
 	flex-wrap: wrap;
+	width: 100%;
 }
 
 .row--alt {
@@ -28,11 +29,12 @@ main {
 	padding: 0 20px;
 }
 
-.col-25,
-.col-66,
-.col-75,
-.col-50,
-.col-33 {
+.col-2,
+.col-3,
+.col-4,
+.col-6,
+.col-8,
+.col-9 {
 	width: 100%;
 }
 
@@ -46,25 +48,30 @@ main {
 
 @media (--sidebar-query) {
 
-	.col-25 {
-		width: 25%;
+	.col-2 {
+		width: calc((100% / 12) * 2);
 	}
 
-	.col-66 {
-		width: calc((100% / 3) * 2);
+	.col-3 {
+		width: calc((100% / 12) * 3);
 	}
 
-	.col-75 {
-		width: 75%;
+	.col-4 {
+		width: calc((100% / 12) * 4);;
 	}
 
-	.col-50 {
-		width: 50%;
+	.col-6 {
+		width: calc((100% / 12) * 6);;
 	}
 
-	.col-33 {
-		width: calc((100% / 3));
+	.col-8 {
+		width: calc((100% / 12) * 8);
 	}
+
+	.col-9 {
+		width: calc((100% / 12) * 9);;
+	}
+
 
 	.container {
 		padding: 0 20px;

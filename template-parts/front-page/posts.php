@@ -2,7 +2,7 @@
     <div class="container">
         <h2 class="ma0">Latest blog posts</h2>
         <div class="row row--alt justify-between">
-            <div class="col col-33">
+            <div class="col col-4">
                 <article class="front-posts__article">
                     <div class="bg-cover" style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/hero_placeholder.jpg' ?>);"></div>
                     <header class="display-flex">
@@ -15,7 +15,7 @@
                     </header>
                 </article>
             </div>
-            <div class="col col-33">
+            <div class="col col-4">
                 <article class="front-posts__article">
                     <div class="bg-cover" style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/hero_placeholder.jpg' ?>);"></div>
                     <header class="display-flex">
@@ -28,7 +28,7 @@
                     </header>
                 </article>
             </div>
-            <div class="col col-33">
+            <div class="col col-4">
                 <article class="front-posts__article front-posts__article--nm">
                     <div class="bg-cover" style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/hero_placeholder.jpg' ?>);"></div>
                     <header class="display-flex">
