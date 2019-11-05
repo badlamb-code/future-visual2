@@ -22,8 +22,8 @@ wp_rig()->print_styles( 'wp-rig-content' );
 
 			get_template_part( 'template-parts/content/entry', get_post_type() );
 		}
+	
 		?>
 	</main><!-- #primary -->
 <?php
-get_sidebar();
 get_footer();
