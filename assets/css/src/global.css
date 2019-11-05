@@ -32,6 +32,7 @@
 /* blocks */
 @import "blocks/_footer.css";
 @import "blocks/_header.css";
+@import "blocks/_form.css";
 
 /* partials */
 @import "partials/_buttons.css";

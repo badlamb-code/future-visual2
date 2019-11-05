@@ -10,31 +10,7 @@
 				quis sollicitudin nisi interdum.
 			</p>
 		</div>
-		<form action="#" method="POST">
-			<div>
-				<label for="firstname">First name*</label>
-				<input type="text" id="firstname" required>
-			</div>
-			<div>
-				<label for="secondname">Second name*</label>
-				<input type="text" id="secondname" required>
-			</div>
-			<div>
-				<label for="email">Email Address*</label>
-				<input type="email" id="email" required>
-			</div>
-			<div>
-				<label for="subject">Subject*</label>
-				<input type="text" id="subject" required>
-			</div>
-			<div>
-				<label for="message">Message*</label>
-				<textarea name="" id="message" cols="30" rows="10" required></textarea>
-			</div>
-			<div>
-				<input type="submit" value="Submit enquiry" class="btn">
-			</div>
-		</form>
+		<?php get_template_part('template-parts/blocks/form') ?>
 	</div>
 </section>
 <!-- /visionxr-form -->

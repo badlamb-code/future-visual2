@@ -79,6 +79,11 @@
 	background-size: cover;
 }
 
+.bg-none {
+	background-image: none !important;
+	background-color: transparent !important;
+}
+
 .realtive {
 	position: relative;
 }
@@ -90,4 +95,8 @@
 /* margins */
 .ma0 {
 	margin: 0;
+}
+
+.mt4 {
+	margin-top: 4.2rem;
 }
