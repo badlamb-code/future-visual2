@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="10px" viewBox="0 0 16 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.1 (81669) - https://sketch.com -->
+    <title>Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="View-Project-Mob" transform="translate(-96.000000, -11.000000)" fill="#f01109" fill-rule="nonzero">
+            <g id="View-Project">
+                <g>
+                    <g id="Group">
+                        <g id="Arrow" transform="translate(96.000000, 11.000000)">
+                            <path d="M12.5861526,6 L1,6 C0.44771525,6 6.76353751e-17,5.55228475 0,5 C-6.76353751e-17,4.44771525 0.44771525,4 1,4 L12.6217972,4 L10.328904,1.70710678 C9.93837967,1.31658249 9.93837967,0.683417511 10.328904,0.292893219 C10.7194283,-0.0976310729 11.3525932,-0.0976310729 11.7431175,0.292893219 L15.7252953,4.27507095 C16.1158195,4.66559524 16.1158195,5.29876022 15.7252953,5.68928452 L11.7431175,9.67146225 C11.3525932,10.0619865 10.7194283,10.0619865 10.328904,9.67146225 C9.93837967,9.28093796 9.93837967,8.64777298 10.328904,8.25724869 L12.5861526,6 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

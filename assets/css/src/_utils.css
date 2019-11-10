@@ -13,6 +13,14 @@
 	font-size: 1.6rem;
 }
 
+.text-center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: 700;
+}
+
 /* colors */
 .color-indigo {
 	color: var(--color-indigo);
@@ -35,6 +43,11 @@
 	align-items: center;
 }
 
+.display-flex {
+	display: flex;
+
+}
+
 .align-start {
 	align-items: flex-start;
 }
@@ -46,6 +59,21 @@
 /* global */
 .reset-list {
 	list-style: none;
-	margin: 0;
 	padding: 0;
+	margin: 0;
+}
+
+.bg-cover {
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.realtive {
+	position: relative;
+}
+
+/* margins */
+.ma0 {
+	margin: 0;
 }

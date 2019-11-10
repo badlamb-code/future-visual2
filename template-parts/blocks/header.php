@@ -18,13 +18,13 @@ namespace WP_Rig\WP_Rig;
 		<div class="row justify-between align-center header__inner">
 			<a href="#" class="header__logo align-center">
 				<?php get_template_part( 'template-parts/partials/logo' ); ?>
-				<!-- xr logo goes here -->
+				<img src="<?php echo get_template_directory_uri() . '/assets/images/logo_alt.svg' ?>" alt="VISIONxR">
 			</a>
 			<div class="header__box justify-between align-center">
 				<nav class="header__nav">
 					<?php wp_rig()->display_primary_nav_menu( [ 'menu_id' => 'primary-menu' ] ); ?>
 				</nav>
-				<a href="#" class="btn btn--small header__btn">Make an enquiry</a>
+				<a href="#" class="header__btn btn btn--small">Make an enquiry</a>
 				<div class="burger">
 					<div class="burger__line"></div>
 					<div class="burger__line"></div>
