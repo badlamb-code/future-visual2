@@ -10,7 +10,21 @@
 	flex-wrap: wrap;
 }
 
-@media (--content-query) {
+.row--alt {
+	margin: 0 -20px;
+}
+
+.col {
+	padding: 0 20px;
+}
+
+
+.col-50,
+.col-33 {
+	width: 100%;
+}
+
+@media (--content-query) {	
 
 	.container {
 		padding: 0 60px;
@@ -19,6 +33,14 @@
 }
 
 @media (--sidebar-query) {
+
+	.col-50 {
+		width: 50%;
+	}
+
+	.col-33 {
+		width: calc((100% / 3));
+	}
 
 	.container {
 		padding: 0 20px;

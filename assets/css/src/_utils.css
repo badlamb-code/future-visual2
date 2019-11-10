@@ -34,19 +34,29 @@
 	color: #fff;
 }
 
+.display-flex {
+	display: flex;
+}
+
+@media (--sidebar-query){
+	.display-none-desktop {
+		display: none;
+	}
+}
+
 /* flex */
 .justify-between {
 	justify-content: space-between;
+}
+
+.justify-end {
+	justify-content: flex-end;
 }
 
 .align-center {
 	align-items: center;
 }
 
-.display-flex {
-	display: flex;
-
-}
 
 .align-start {
 	align-items: flex-start;
@@ -71,6 +81,10 @@
 
 .realtive {
 	position: relative;
+}
+
+.overflow-mobile-hidden {
+	overflow: hidden;
 }
 
 /* margins */
