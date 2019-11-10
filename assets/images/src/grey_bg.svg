@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1116px" viewBox="0 0 1920 1116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.1 (81669) - https://sketch.com -->
+    <title>grey_bg@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E5E4E9" offset="0%"></stop>
+            <stop stop-color="#EFEFF2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="grey_bg">
+            <rect id="Rectangle" fill="#EFEFF2" x="0" y="0" width="1920" height="1116"></rect>
+            <polygon id="Triangle-grey" fill="url(#linearGradient-1)" points="1920 1115.99118 0 1116 1920 0"></polygon>
+        </g>
+    </g>
+</svg>

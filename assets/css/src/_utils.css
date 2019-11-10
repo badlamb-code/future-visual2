@@ -13,6 +13,10 @@
 	font-size: 1.6rem;
 }
 
+.font-size-14 {
+	font-size: 1.4rem;
+}
+
 .text-center {
 	text-align: center;
 }
@@ -53,10 +57,17 @@
 	justify-content: flex-end;
 }
 
+.justify-center {
+	justify-content: center;
+}
+
 .align-center {
 	align-items: center;
 }
 
+.flex-column {
+	flex-direction: column;
+}
 
 .align-start {
 	align-items: flex-start;
@@ -79,6 +90,11 @@
 	background-size: cover;
 }
 
+.bg-none {
+	background-image: none !important;
+	background-color: transparent !important;
+}
+
 .realtive {
 	position: relative;
 }
@@ -90,4 +106,8 @@
 /* margins */
 .ma0 {
 	margin: 0;
+}
+
+.mt4 {
+	margin-top: 4.2rem;
 }

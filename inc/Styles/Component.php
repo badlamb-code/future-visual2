@@ -302,6 +302,17 @@ class Component implements Component_Interface, Templating_Component_Interface {
 				'file' => 'templates/visionxr.min.css',
 				'global' => true,
 			],
+			'wp-rig-template-contact' => [
+				'file' => 'templates/contact.min.css',
+				'global' => true,
+			],
+			'wp-rig-single' => [
+				'file' => 'single.min.css',
+				'preload_callback' => function() {
+					global $template;
+					return 'single.php' === basename( $template );
+				},
+			],
 		];
 
 		/**

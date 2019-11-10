@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.1 (81669) - https://sketch.com -->
+    <title>email</title>
+    <desc>Created with Sketch.</desc>
+    <g id="email" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11">
+            <path d="M42,21 C42,32.598 32.598,42 21,42 C9.402,42 0,32.598 0,21 C0,9.402 9.402,0 21,0 C32.598,0 42,9.402 42,21" id="Fill-1" fill="#2A486D"></path>
+            <polygon id="Fill-3" fill="#FFFFFF" points="32 26.8604 32 14.5134 24.808 20.6874"></polygon>
+            <polygon id="Fill-5" fill="#FFFFFF" points="21.5225 21.4761 30.6595 13.6271 11.3095 13.6271 20.5065 21.4761"></polygon>
+            <polygon id="Fill-7" fill="#FFFFFF" points="10 14.5132 10 26.8602 17.123 20.6872"></polygon>
+            <polygon id="Fill-9" fill="#FFFFFF" points="23.627 21.7378 21.888 23.0508 20.081 23.0508 18.371 21.7378 10.617 28.3728 31.421 28.3728"></polygon>
+        </g>
+    </g>
+</svg>

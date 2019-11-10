@@ -1,0 +1,29 @@
+/* form */
+.contact-form {
+    padding: 11rem 0 12.1rem 0;
+    background-image: url('../../images/grey_bg.svg');
+    background-position: 100%;
+}
+
+.contact-form address {
+    font-style: normal;
+}
+
+.contact-form ul li {
+    display: inline-block;
+}
+
+.contact-form ul li:not(:last-child) {
+    margin-right: 1.8rem;
+}
+
+.contact-form__image {
+    width: 370px;
+    float: right;
+    margin-bottom: 18.4rem;
+}
+
+#map {
+    height: 644px;
+    width: 100%;
+}
