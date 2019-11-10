@@ -30,6 +30,7 @@
 @import "_fonts.css";
 
 /* blocks */
+@import "blocks/_footer.css";
 @import "blocks/_header.css";
 
 /* partials */

@@ -9,6 +9,10 @@
 	font-size: 2.8rem;
 }
 
+.font-size-16 {
+	font-size: 1.6rem;
+}
+
 /* colors */
 .color-indigo {
 	color: var(--color-indigo);
@@ -18,6 +22,10 @@
 	color: var(--color-blue);
 }
 
+.color-white {
+	color: #fff;
+}
+
 /* flex */
 .justify-between {
 	justify-content: space-between;
@@ -25,4 +33,19 @@
 
 .align-center {
 	align-items: center;
+}
+
+.align-start {
+	align-items: flex-start;
+}
+
+.flex-grow {
+	flex-grow: 1;
+}
+
+/* global */
+.reset-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
